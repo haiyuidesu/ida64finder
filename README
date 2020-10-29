@@ -1,0 +1,19 @@
+ida64finder
+
+> IDA plugin for iBoot64Finder.
+
+I. Requierements
+	1. IDA Pro,
+	2. iBoot64Finder,
+	3. macOS/Linux/Windows.
+
+II. Usage
+	$ iBoot64Finder -f iBoot.bin -e >> ibot.txt
+
+	> Open IDA Pro, and write in the python console :
+
+	$ Python > i64f("ibot.txt")
+
+IV. Notes
+	> Don't forget to place it into the IDA 'plugins/' directory.
+	> This plugin only allow to rename in IDA the functions found by iBoot64Finder.
